@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Call: 941-586-9329", href: "tel:+1-941-586-9329" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="/api/placeholder/600/400?_wi=1"
+          imageSrc="/images/hero-moving-truck.jpg"
           imageAlt="Professional Florida Elite Moving truck"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -67,7 +67,7 @@ export default function LandingPage() {
           description="Clay Owens"
           subdescription="Founder & Owner - 10+ Years of Moving Excellence"
           icon={Award}
-          imageSrc="/api/placeholder/400/400"
+          imageSrc="/images/clay-owens-team.jpg"
           imageAlt="Clay Owens leading his professional moving team"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -79,27 +79,27 @@ export default function LandingPage() {
           features={[
             {
               id: "local-moving",              title: "Local Moving",              tags: ["Sarasota County", "Same-Day Available"],
-              imageSrc: "/api/placeholder/500/400?_wi=1",              imageAlt: "Professional local moving service"
+              imageSrc: "/images/local-moving-service.jpg",              imageAlt: "Professional local moving service"
             },
             {
               id: "long-distance",              title: "Long-Distance Moving",              tags: ["State-to-State", "Full Coverage"],
-              imageSrc: "/api/placeholder/500/400?_wi=2",              imageAlt: "Long distance moving services"
+              imageSrc: "/images/long-distance-moving.jpg",              imageAlt: "Long distance moving services"
             },
             {
               id: "furniture-moving",              title: "Furniture Moving & Packing",              tags: ["Careful Handling", "Protected Transit"],
-              imageSrc: "/api/placeholder/500/400?_wi=3",              imageAlt: "Professional furniture moving and protection"
+              imageSrc: "/images/furniture-packing.jpg",              imageAlt: "Professional furniture moving and protection"
             },
             {
               id: "office-relocation",              title: "Office Relocation",              tags: ["Minimal Downtime", "Coordinated Setup"],
-              imageSrc: "/api/placeholder/500/400?_wi=4",              imageAlt: "Professional office moving service"
+              imageSrc: "/images/office-moving.jpg",              imageAlt: "Professional office moving service"
             },
             {
               id: "junk-removal",              title: "Junk & Clutter Removal",              tags: ["Garage Cleanouts", "Yard Waste Disposal"],
-              imageSrc: "/api/placeholder/500/400?_wi=5",              imageAlt: "Professional junk removal and cleanup"
+              imageSrc: "/images/junk-removal.jpg",              imageAlt: "Professional junk removal and cleanup"
             },
             {
               id: "construction-cleanup",              title: "Construction Cleanup",              tags: ["Site Cleanup", "Debris Removal"],
-              imageSrc: "/api/placeholder/500/400?_wi=6",              imageAlt: "Professional construction site cleanup"
+              imageSrc: "/images/construction-cleanup.jpg",              imageAlt: "Professional construction site cleanup"
             },
           ]}
           animationType="slide-up"
@@ -118,27 +118,27 @@ export default function LandingPage() {
           features={[
             {
               id: "professional-team",              title: "Professional & Friendly Team",              tags: ["Trained Movers", "Courteous Service"],
-              imageSrc: "/api/placeholder/500/400?_wi=7",              imageAlt: "Professional and friendly moving team"
+              imageSrc: "/images/professional-team.jpg",              imageAlt: "Professional and friendly moving team"
             },
             {
               id: "careful-handling",              title: "Careful Furniture Handling",              tags: ["Fragile Items Protected", "Zero Damage Guarantee"],
-              imageSrc: "/api/placeholder/500/400?_wi=8",              imageAlt: "Careful handling of furniture and valuables"
+              imageSrc: "/images/careful-handling.jpg",              imageAlt: "Careful handling of furniture and valuables"
             },
             {
               id: "punctual-efficient",              title: "Punctual & Efficient",              tags: ["On-Time Service", "Quick Turnaround"],
-              imageSrc: "/api/placeholder/500/400?_wi=9",              imageAlt: "Fast and efficient moving service"
+              imageSrc: "/images/efficient-service.jpg",              imageAlt: "Fast and efficient moving service"
             },
             {
               id: "transparent-pricing",              title: "Transparent & Affordable",              tags: ["No Hidden Fees", "Fair Pricing"],
-              imageSrc: "/api/placeholder/500/400?_wi=10",              imageAlt: "Satisfied customer with affordable pricing"
+              imageSrc: "/images/transparent-pricing.jpg",              imageAlt: "Satisfied customer with affordable pricing"
             },
             {
               id: "5-star-rated",              title: "5-Star Customer Ratings",              tags: ["10+ Years Experience", "Hundreds of Happy Moves"],
-              imageSrc: "/api/placeholder/500/400?_wi=11",              imageAlt: "Customer satisfaction and testimonials"
+              imageSrc: "/images/5-star-reviews.jpg",              imageAlt: "Customer satisfaction and testimonials"
             },
             {
               id: "24-7-available",              title: "Available 24/7",              tags: ["Emergency Moves", "Flexible Scheduling"],
-              imageSrc: "/api/placeholder/500/400?_wi=12",              imageAlt: "24/7 moving service availability"
+              imageSrc: "/images/24-7-service.jpg",              imageAlt: "24/7 moving service availability"
             },
           ]}
           animationType="slide-up"
@@ -156,16 +156,16 @@ export default function LandingPage() {
         <TestimonialCardTen
           testimonials={[
             {
-              id: "1",              title: "Professional From Start to Finish",              quote: "Florida Elite Moving made our entire move stress-free. The team was punctual, careful with every item, and maintained a friendly attitude throughout. No hidden fees, fair pricing, and exceptional service. Highly recommended!",              name: "Sarah Johnson",              role: "Business Owner",              imageSrc: "/api/placeholder/300/300?_wi=1",              imageAlt: "Sarah Johnson testimonial"
+              id: "1",              title: "Professional From Start to Finish",              quote: "Florida Elite Moving made our entire move stress-free. The team was punctual, careful with every item, and maintained a friendly attitude throughout. No hidden fees, fair pricing, and exceptional service. Highly recommended!",              name: "Sarah Johnson",              role: "Business Owner",              imageSrc: "/images/testimonial-sarah-johnson.jpg",              imageAlt: "Sarah Johnson testimonial"
             },
             {
-              id: "2",              title: "We Trust Them With Our Most Precious Belongings",              quote: "After 10+ years in the moving business, Clay's team truly understands how to handle valuable furniture and fragile items. They treated our belongings like their own. We've already recommended them to friends!",              name: "Michael Chen",              role: "Homeowner",              imageSrc: "/api/placeholder/300/300?_wi=2",              imageAlt: "Michael Chen testimonial"
+              id: "2",              title: "We Trust Them With Our Most Precious Belongings",              quote: "After 10+ years in the moving business, Clay's team truly understands how to handle valuable furniture and fragile items. They treated our belongings like their own. We've already recommended them to friends!",              name: "Michael Chen",              role: "Homeowner",              imageSrc: "/images/testimonial-michael-chen.jpg",              imageAlt: "Michael Chen testimonial"
             },
             {
-              id: "3",              title: "Fast, Reliable, and Transparent Pricing",              quote: "We moved across three states with Florida Elite Moving. Their efficiency was amazing, they kept us updated throughout, and the final bill matched their estimate perfectly. No surprises, just great service!",              name: "Emily & David Rodriguez",              role: "Relocating Family",              imageSrc: "/api/placeholder/300/300?_wi=3",              imageAlt: "Emily and David Rodriguez testimonial"
+              id: "3",              title: "Fast, Reliable, and Transparent Pricing",              quote: "We moved across three states with Florida Elite Moving. Their efficiency was amazing, they kept us updated throughout, and the final bill matched their estimate perfectly. No surprises, just great service!",              name: "Emily & David Rodriguez",              role: "Relocating Family",              imageSrc: "/images/testimonial-rodriguez-family.jpg",              imageAlt: "Emily and David Rodriguez testimonial"
             },
             {
-              id: "4",              title: "The Best Moving Company in Sarasota",              quote: "Five-star service, every single time. The team showed up on time, worked efficiently, and treated our home with respect. Customer satisfaction is clearly their top priority. We couldn't ask for better!",              name: "Jessica Williams",              role: "Corporate Executive",              imageSrc: "/api/placeholder/300/300?_wi=4",              imageAlt: "Jessica Williams testimonial"
+              id: "4",              title: "The Best Moving Company in Sarasota",              quote: "Five-star service, every single time. The team showed up on time, worked efficiently, and treated our home with respect. Customer satisfaction is clearly their top priority. We couldn't ask for better!",              name: "Jessica Williams",              role: "Corporate Executive",              imageSrc: "/images/testimonial-jessica-williams.jpg",              imageAlt: "Jessica Williams testimonial"
             },
           ]}
           title="Real Reviews from Our Customers"
@@ -193,7 +193,7 @@ export default function LandingPage() {
             required: true,
           }}
           useInvertedBackground={false}
-          imageSrc="/api/placeholder/600/400?_wi=2"
+          imageSrc="/images/contact-moving-truck.jpg"
           imageAlt="Florida Elite Moving truck ready for your move"
           mediaAnimation="slide-up"
           mediaPosition="right"
