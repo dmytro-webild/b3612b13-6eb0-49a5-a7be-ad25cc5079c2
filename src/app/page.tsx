@@ -8,6 +8,7 @@ import TextAbout from '@/components/sections/about/TextAbout';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Award, CheckCircle, Clock, Shield, Star, Truck } from 'lucide-react';
+import Image from 'next/image';
 
 export default function LandingPage() {
   return (

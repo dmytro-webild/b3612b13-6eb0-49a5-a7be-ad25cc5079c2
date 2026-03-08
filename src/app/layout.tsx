@@ -17,6 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="description" content="Professional moving services in Sarasota and beyond" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Florida Elite Moving" />
+        <meta property="og:description" content="Professional moving services in Sarasota and beyond" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </head>
       <body className={inter.className}>
         {children}
         <script
