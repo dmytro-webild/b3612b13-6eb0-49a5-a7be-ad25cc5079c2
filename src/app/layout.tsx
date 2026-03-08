@@ -7,7 +7,8 @@ import "./styles/base.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Florida Elite Moving",  description: "Professional moving services in Sarasota and beyond"};
+  title: "Florida Elite Moving",  description: "Professional moving services in Sarasota and beyond"
+};
 
 export default function RootLayout({
   children,
