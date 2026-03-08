@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Call: 941-586-9329", href: "tel:+1-941-586-9329" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=1"
+          imageSrc="/api/placeholder/600/400"
           imageAlt="Professional Florida Elite Moving truck"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -67,7 +67,7 @@ export default function LandingPage() {
           description="Clay Owens"
           subdescription="Founder & Owner - 10+ Years of Moving Excellence"
           icon={Award}
-          imageSrc="http://img.b2bpic.net/free-photo/front-view-delivery-man-with-packagaes_23-2148684709.jpg"
+          imageSrc="/api/placeholder/400/400"
           imageAlt="Clay Owens leading his professional moving team"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -79,22 +79,28 @@ export default function LandingPage() {
           features={[
             {
               id: "local-moving",              title: "Local Moving",              tags: ["Sarasota County", "Same-Day Available"],
-              imageSrc: "http://img.b2bpic.net/free-photo/parents-two-girls-carrying-boxes-making-stack-carefully-their-new-empty-flat_74855-10301.jpg",              imageAlt: "Professional local moving service"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Professional local moving service"
+            },
             {
               id: "long-distance",              title: "Long-Distance Moving",              tags: ["State-to-State", "Full Coverage"],
-              imageSrc: "http://img.b2bpic.net/free-photo/courier-doing-jobs-logistics_23-2149229200.jpg",              imageAlt: "Long distance moving services"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Long distance moving services"
+            },
             {
               id: "furniture-moving",              title: "Furniture Moving & Packing",              tags: ["Careful Handling", "Protected Transit"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-using-scotch-tape-box-secure-it-moving-out_23-2148647470.jpg?_wi=1",              imageAlt: "Professional furniture moving and protection"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Professional furniture moving and protection"
+            },
             {
               id: "office-relocation",              title: "Office Relocation",              tags: ["Minimal Downtime", "Coordinated Setup"],
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-carrying-cardboard-box_23-2149445764.jpg",              imageAlt: "Professional office moving service"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Professional office moving service"
+            },
             {
               id: "junk-removal",              title: "Junk & Clutter Removal",              tags: ["Garage Cleanouts", "Yard Waste Disposal"],
-              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27403.jpg?_wi=1",              imageAlt: "Professional junk removal and cleanup"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Professional junk removal and cleanup"
+            },
             {
               id: "construction-cleanup",              title: "Construction Cleanup",              tags: ["Site Cleanup", "Debris Removal"],
-              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27403.jpg?_wi=2",              imageAlt: "Professional construction site cleanup"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Professional construction site cleanup"
+            },
           ]}
           animationType="slide-up"
           title="Our Moving Services"
@@ -112,22 +118,28 @@ export default function LandingPage() {
           features={[
             {
               id: "professional-team",              title: "Professional & Friendly Team",              tags: ["Trained Movers", "Courteous Service"],
-              imageSrc: "http://img.b2bpic.net/free-photo/happy-african-american-woman-holding-delivered-packages-couriers-is-standing-background_637285-1266.jpg",              imageAlt: "Professional and friendly moving team"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Professional and friendly moving team"
+            },
             {
               id: "careful-handling",              title: "Careful Furniture Handling",              tags: ["Fragile Items Protected", "Zero Damage Guarantee"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-using-scotch-tape-box-secure-it-moving-out_23-2148647470.jpg?_wi=2",              imageAlt: "Careful handling of furniture and valuables"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Careful handling of furniture and valuables"
+            },
             {
               id: "punctual-efficient",              title: "Punctual & Efficient",              tags: ["On-Time Service", "Quick Turnaround"],
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=2",              imageAlt: "Fast and efficient moving service"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Fast and efficient moving service"
+            },
             {
               id: "transparent-pricing",              title: "Transparent & Affordable",              tags: ["No Hidden Fees", "Fair Pricing"],
-              imageSrc: "http://img.b2bpic.net/free-photo/family-moving-using-boxes_1157-35331.jpg?_wi=1",              imageAlt: "Satisfied customer with affordable pricing"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Satisfied customer with affordable pricing"
+            },
             {
               id: "5-star-rated",              title: "5-Star Customer Ratings",              tags: ["10+ Years Experience", "Hundreds of Happy Moves"],
-              imageSrc: "http://img.b2bpic.net/free-photo/family-moving-using-boxes_1157-35331.jpg?_wi=2",              imageAlt: "Customer satisfaction and testimonials"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "Customer satisfaction and testimonials"
+            },
             {
               id: "24-7-available",              title: "Available 24/7",              tags: ["Emergency Moves", "Flexible Scheduling"],
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=3",              imageAlt: "24/7 moving service availability"},
+              imageSrc: "/api/placeholder/500/400",              imageAlt: "24/7 moving service availability"
+            },
           ]}
           animationType="slide-up"
           title="Why Choose Florida Elite Moving?"
@@ -144,13 +156,17 @@ export default function LandingPage() {
         <TestimonialCardTen
           testimonials={[
             {
-              id: "1",              title: "Professional From Start to Finish",              quote: "Florida Elite Moving made our entire move stress-free. The team was punctual, careful with every item, and maintained a friendly attitude throughout. No hidden fees, fair pricing, and exceptional service. Highly recommended!",              name: "Sarah Johnson",              role: "Business Owner",              imageSrc: "http://img.b2bpic.net/free-photo/positive-customer-approving-new-offer_1262-17151.jpg",              imageAlt: "Sarah Johnson testimonial"},
+              id: "1",              title: "Professional From Start to Finish",              quote: "Florida Elite Moving made our entire move stress-free. The team was punctual, careful with every item, and maintained a friendly attitude throughout. No hidden fees, fair pricing, and exceptional service. Highly recommended!",              name: "Sarah Johnson",              role: "Business Owner",              imageSrc: "/api/placeholder/300/300",              imageAlt: "Sarah Johnson testimonial"
+            },
             {
-              id: "2",              title: "We Trust Them With Our Most Precious Belongings",              quote: "After 10+ years in the moving business, Clay's team truly understands how to handle valuable furniture and fragile items. They treated our belongings like their own. We've already recommended them to friends!",              name: "Michael Chen",              role: "Homeowner",              imageSrc: "http://img.b2bpic.net/free-photo/young-hispanic-man-ecommerce-business-worker-using-laptop-standing-office_839833-34292.jpg",              imageAlt: "Michael Chen testimonial"},
+              id: "2",              title: "We Trust Them With Our Most Precious Belongings",              quote: "After 10+ years in the moving business, Clay's team truly understands how to handle valuable furniture and fragile items. They treated our belongings like their own. We've already recommended them to friends!",              name: "Michael Chen",              role: "Homeowner",              imageSrc: "/api/placeholder/300/300",              imageAlt: "Michael Chen testimonial"
+            },
             {
-              id: "3",              title: "Fast, Reliable, and Transparent Pricing",              quote: "We moved across three states with Florida Elite Moving. Their efficiency was amazing, they kept us updated throughout, and the final bill matched their estimate perfectly. No surprises, just great service!",              name: "Emily & David Rodriguez",              role: "Relocating Family",              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-kids-parents-playing-together_23-2148884695.jpg",              imageAlt: "Emily and David Rodriguez testimonial"},
+              id: "3",              title: "Fast, Reliable, and Transparent Pricing",              quote: "We moved across three states with Florida Elite Moving. Their efficiency was amazing, they kept us updated throughout, and the final bill matched their estimate perfectly. No surprises, just great service!",              name: "Emily & David Rodriguez",              role: "Relocating Family",              imageSrc: "/api/placeholder/300/300",              imageAlt: "Emily and David Rodriguez testimonial"
+            },
             {
-              id: "4",              title: "The Best Moving Company in Sarasota",              quote: "Five-star service, every single time. The team showed up on time, worked efficiently, and treated our home with respect. Customer satisfaction is clearly their top priority. We couldn't ask for better!",              name: "Jessica Williams",              role: "Corporate Executive",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beauty-businesswoman-leaning-against-brick-wall_613910-16182.jpg",              imageAlt: "Jessica Williams testimonial"},
+              id: "4",              title: "The Best Moving Company in Sarasota",              quote: "Five-star service, every single time. The team showed up on time, worked efficiently, and treated our home with respect. Customer satisfaction is clearly their top priority. We couldn't ask for better!",              name: "Jessica Williams",              role: "Corporate Executive",              imageSrc: "/api/placeholder/300/300",              imageAlt: "Jessica Williams testimonial"
+            },
           ]}
           title="Real Reviews from Our Customers"
           description="Don't just take our word for it. See what hundreds of satisfied customers have to say about their moving experience with Florida Elite Moving."
@@ -177,7 +193,7 @@ export default function LandingPage() {
             required: true,
           }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=4"
+          imageSrc="/api/placeholder/600/400"
           imageAlt="Florida Elite Moving truck ready for your move"
           mediaAnimation="slide-up"
           mediaPosition="right"
