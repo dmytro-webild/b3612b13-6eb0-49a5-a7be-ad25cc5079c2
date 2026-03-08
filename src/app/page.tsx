@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Call: 941-586-9329", href: "tel:+1-941-586-9329" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=1"
           imageAlt="Professional Florida Elite Moving truck"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -85,16 +85,16 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/courier-doing-jobs-logistics_23-2149229200.jpg",              imageAlt: "Long distance moving services"},
             {
               id: "furniture-moving",              title: "Furniture Moving & Packing",              tags: ["Careful Handling", "Protected Transit"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-using-scotch-tape-box-secure-it-moving-out_23-2148647470.jpg",              imageAlt: "Professional furniture moving and protection"},
+              imageSrc: "http://img.b2bpic.net/free-photo/man-using-scotch-tape-box-secure-it-moving-out_23-2148647470.jpg?_wi=1",              imageAlt: "Professional furniture moving and protection"},
             {
               id: "office-relocation",              title: "Office Relocation",              tags: ["Minimal Downtime", "Coordinated Setup"],
               imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-carrying-cardboard-box_23-2149445764.jpg",              imageAlt: "Professional office moving service"},
             {
               id: "junk-removal",              title: "Junk & Clutter Removal",              tags: ["Garage Cleanouts", "Yard Waste Disposal"],
-              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27403.jpg",              imageAlt: "Professional junk removal and cleanup"},
+              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27403.jpg?_wi=1",              imageAlt: "Professional junk removal and cleanup"},
             {
               id: "construction-cleanup",              title: "Construction Cleanup",              tags: ["Site Cleanup", "Debris Removal"],
-              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27403.jpg",              imageAlt: "Professional construction site cleanup"},
+              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27403.jpg?_wi=2",              imageAlt: "Professional construction site cleanup"},
           ]}
           animationType="slide-up"
           title="Our Moving Services"
@@ -115,19 +115,19 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/happy-african-american-woman-holding-delivered-packages-couriers-is-standing-background_637285-1266.jpg",              imageAlt: "Professional and friendly moving team"},
             {
               id: "careful-handling",              title: "Careful Furniture Handling",              tags: ["Fragile Items Protected", "Zero Damage Guarantee"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-using-scotch-tape-box-secure-it-moving-out_23-2148647470.jpg",              imageAlt: "Careful handling of furniture and valuables"},
+              imageSrc: "http://img.b2bpic.net/free-photo/man-using-scotch-tape-box-secure-it-moving-out_23-2148647470.jpg?_wi=2",              imageAlt: "Careful handling of furniture and valuables"},
             {
               id: "punctual-efficient",              title: "Punctual & Efficient",              tags: ["On-Time Service", "Quick Turnaround"],
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg",              imageAlt: "Fast and efficient moving service"},
+              imageSrc: "http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=2",              imageAlt: "Fast and efficient moving service"},
             {
               id: "transparent-pricing",              title: "Transparent & Affordable",              tags: ["No Hidden Fees", "Fair Pricing"],
-              imageSrc: "http://img.b2bpic.net/free-photo/family-moving-using-boxes_1157-35331.jpg",              imageAlt: "Satisfied customer with affordable pricing"},
+              imageSrc: "http://img.b2bpic.net/free-photo/family-moving-using-boxes_1157-35331.jpg?_wi=1",              imageAlt: "Satisfied customer with affordable pricing"},
             {
               id: "5-star-rated",              title: "5-Star Customer Ratings",              tags: ["10+ Years Experience", "Hundreds of Happy Moves"],
-              imageSrc: "http://img.b2bpic.net/free-photo/family-moving-using-boxes_1157-35331.jpg",              imageAlt: "Customer satisfaction and testimonials"},
+              imageSrc: "http://img.b2bpic.net/free-photo/family-moving-using-boxes_1157-35331.jpg?_wi=2",              imageAlt: "Customer satisfaction and testimonials"},
             {
               id: "24-7-available",              title: "Available 24/7",              tags: ["Emergency Moves", "Flexible Scheduling"],
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg",              imageAlt: "24/7 moving service availability"},
+              imageSrc: "http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=3",              imageAlt: "24/7 moving service availability"},
           ]}
           animationType="slide-up"
           title="Why Choose Florida Elite Moving?"
@@ -177,7 +177,7 @@ export default function LandingPage() {
             required: true,
           }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/woman-takeout-employee-delivering-boxes-pizza-building-driving-delivery-car_482257-134975.jpg?_wi=4"
           imageAlt="Florida Elite Moving truck ready for your move"
           mediaAnimation="slide-up"
           mediaPosition="right"
