@@ -4,8 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import FeatureCardTwentyThree from '@/components/sections/feature/FeatureCardTwentyThree';
-import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
+import TextAbout from '@/components/sections/about/TextAbout';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Award, CheckCircle, Clock, Shield, Star, Truck } from 'lucide-react';
@@ -75,106 +74,44 @@ export default function LandingPage() {
       </div>
 
       <div id="services" data-section="services">
-        <FeatureCardTwentyThree
-          features={[
-            {
-              id: "local-moving",              title: "Local Moving",              tags: ["Sarasota County", "Same-Day Available"],
-              imageSrc: "/images/local-moving-service.jpg",              imageAlt: "Professional local moving service"
-            },
-            {
-              id: "long-distance",              title: "Long-Distance Moving",              tags: ["State-to-State", "Full Coverage"],
-              imageSrc: "/images/long-distance-moving.jpg",              imageAlt: "Long distance moving services"
-            },
-            {
-              id: "furniture-moving",              title: "Furniture Moving & Packing",              tags: ["Careful Handling", "Protected Transit"],
-              imageSrc: "/images/furniture-packing.jpg",              imageAlt: "Professional furniture moving and protection"
-            },
-            {
-              id: "office-relocation",              title: "Office Relocation",              tags: ["Minimal Downtime", "Coordinated Setup"],
-              imageSrc: "/images/office-moving.jpg",              imageAlt: "Professional office moving service"
-            },
-            {
-              id: "junk-removal",              title: "Junk & Clutter Removal",              tags: ["Garage Cleanouts", "Yard Waste Disposal"],
-              imageSrc: "/images/junk-removal.jpg",              imageAlt: "Professional junk removal and cleanup"
-            },
-            {
-              id: "construction-cleanup",              title: "Construction Cleanup",              tags: ["Site Cleanup", "Debris Removal"],
-              imageSrc: "/images/construction-cleanup.jpg",              imageAlt: "Professional construction site cleanup"
-            },
-          ]}
-          animationType="slide-up"
-          title="Our Moving Services"
-          description="From local moves to long-distance relocations, we handle every type of moving job with professionalism and care. Your belongings are in expert hands."
-          textboxLayout="default"
-          useInvertedBackground={true}
+        <TextAbout
           tag="Complete Solutions"
           tagIcon={Truck}
           tagAnimation="slide-up"
+          title="Our Moving Services: From local moves to long-distance relocations, we handle every type of moving job with professionalism and care. Your belongings are in expert hands."
+          useInvertedBackground={true}
+          buttons={[
+            { text: "Get Free Quote", href: "contact" },
+          ]}
+          buttonAnimation="slide-up"
         />
       </div>
 
       <div id="why-us" data-section="why-us">
-        <FeatureCardTwentyThree
-          features={[
-            {
-              id: "professional-team",              title: "Professional & Friendly Team",              tags: ["Trained Movers", "Courteous Service"],
-              imageSrc: "/images/professional-team.jpg",              imageAlt: "Professional and friendly moving team"
-            },
-            {
-              id: "careful-handling",              title: "Careful Furniture Handling",              tags: ["Fragile Items Protected", "Zero Damage Guarantee"],
-              imageSrc: "/images/careful-handling.jpg",              imageAlt: "Careful handling of furniture and valuables"
-            },
-            {
-              id: "punctual-efficient",              title: "Punctual & Efficient",              tags: ["On-Time Service", "Quick Turnaround"],
-              imageSrc: "/images/efficient-service.jpg",              imageAlt: "Fast and efficient moving service"
-            },
-            {
-              id: "transparent-pricing",              title: "Transparent & Affordable",              tags: ["No Hidden Fees", "Fair Pricing"],
-              imageSrc: "/images/transparent-pricing.jpg",              imageAlt: "Satisfied customer with affordable pricing"
-            },
-            {
-              id: "5-star-rated",              title: "5-Star Customer Ratings",              tags: ["10+ Years Experience", "Hundreds of Happy Moves"],
-              imageSrc: "/images/5-star-reviews.jpg",              imageAlt: "Customer satisfaction and testimonials"
-            },
-            {
-              id: "24-7-available",              title: "Available 24/7",              tags: ["Emergency Moves", "Flexible Scheduling"],
-              imageSrc: "/images/24-7-service.jpg",              imageAlt: "24/7 moving service availability"
-            },
-          ]}
-          animationType="slide-up"
-          title="Why Choose Florida Elite Moving?"
-          description="We understand that moving can be both exciting and stressful. That's why we're committed to making every move smooth, efficient, and hassle-free."
-          textboxLayout="default"
-          useInvertedBackground={false}
+        <TextAbout
           tag="Our Advantages"
           tagIcon={CheckCircle}
           tagAnimation="slide-up"
+          title="Why Choose Florida Elite Moving? We understand that moving can be both exciting and stressful. That's why we're committed to making every move smooth, efficient, and hassle-free."
+          useInvertedBackground={false}
+          buttons={[
+            { text: "Learn More", href: "contact" },
+          ]}
+          buttonAnimation="slide-up"
         />
       </div>
 
       <div id="testimonials" data-section="testimonials">
-        <TestimonialCardTen
-          testimonials={[
-            {
-              id: "1",              title: "Professional From Start to Finish",              quote: "Florida Elite Moving made our entire move stress-free. The team was punctual, careful with every item, and maintained a friendly attitude throughout. No hidden fees, fair pricing, and exceptional service. Highly recommended!",              name: "Sarah Johnson",              role: "Business Owner",              imageSrc: "/images/testimonial-sarah-johnson.jpg",              imageAlt: "Sarah Johnson testimonial"
-            },
-            {
-              id: "2",              title: "We Trust Them With Our Most Precious Belongings",              quote: "After 10+ years in the moving business, Clay's team truly understands how to handle valuable furniture and fragile items. They treated our belongings like their own. We've already recommended them to friends!",              name: "Michael Chen",              role: "Homeowner",              imageSrc: "/images/testimonial-michael-chen.jpg",              imageAlt: "Michael Chen testimonial"
-            },
-            {
-              id: "3",              title: "Fast, Reliable, and Transparent Pricing",              quote: "We moved across three states with Florida Elite Moving. Their efficiency was amazing, they kept us updated throughout, and the final bill matched their estimate perfectly. No surprises, just great service!",              name: "Emily & David Rodriguez",              role: "Relocating Family",              imageSrc: "/images/testimonial-rodriguez-family.jpg",              imageAlt: "Emily and David Rodriguez testimonial"
-            },
-            {
-              id: "4",              title: "The Best Moving Company in Sarasota",              quote: "Five-star service, every single time. The team showed up on time, worked efficiently, and treated our home with respect. Customer satisfaction is clearly their top priority. We couldn't ask for better!",              name: "Jessica Williams",              role: "Corporate Executive",              imageSrc: "/images/testimonial-jessica-williams.jpg",              imageAlt: "Jessica Williams testimonial"
-            },
-          ]}
-          title="Real Reviews from Our Customers"
-          description="Don't just take our word for it. See what hundreds of satisfied customers have to say about their moving experience with Florida Elite Moving."
-          textboxLayout="default"
-          useInvertedBackground={true}
+        <TextAbout
           tag="Social Proof"
           tagIcon={Star}
           tagAnimation="slide-up"
+          title="Real Reviews from Our Customers: Hundreds of satisfied customers trust Florida Elite Moving with their precious belongings. Don't just take our word for it—see what our clients have to say about their moving experience."
+          useInvertedBackground={true}
+          buttons={[
+            { text: "Get Free Quote", href: "contact" },
+          ]}
+          buttonAnimation="slide-up"
         />
       </div>
 
