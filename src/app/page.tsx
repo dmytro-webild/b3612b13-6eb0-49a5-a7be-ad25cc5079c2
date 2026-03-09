@@ -52,7 +52,7 @@ export default function LandingPage() {
           mediaAnimation="slide-up"
           imagePosition="right"
           fixedMediaHeight={true}
-          imageSrc="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=800&fit=crop"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AgLW7cKSaonxNLEy7olEWCSWyH/uploaded-1773058855444-ql4xc3ar.png"
           imageAlt="Professional moving truck"
         />
       </div>
@@ -66,7 +66,7 @@ export default function LandingPage() {
           description="Clay Owens"
           subdescription="Founder & Owner - 10+ Years of Moving Excellence"
           icon={Award}
-          imageSrc="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AgLW7cKSaonxNLEy7olEWCSWyH/uploaded-1773058899655-vwsml17o.jpg"
           imageAlt="Clay Owens, Founder of Florida Elite Moving"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
