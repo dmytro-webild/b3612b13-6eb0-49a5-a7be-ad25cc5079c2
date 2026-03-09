@@ -8,7 +8,6 @@ import TextAbout from '@/components/sections/about/TextAbout';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Award, CheckCircle, Clock, Shield, Star, Truck } from 'lucide-react';
-import Image from 'next/image';
 
 export default function LandingPage() {
   return (
@@ -50,8 +49,6 @@ export default function LandingPage() {
             { text: "Call: 941-586-9329", href: "tel:+1-941-586-9329" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="/images/hero-moving-truck.jpg"
-          imageAlt="Professional Florida Elite Moving truck"
           mediaAnimation="slide-up"
           imagePosition="right"
           fixedMediaHeight={true}
@@ -67,8 +64,6 @@ export default function LandingPage() {
           description="Clay Owens"
           subdescription="Founder & Owner - 10+ Years of Moving Excellence"
           icon={Award}
-          imageSrc="/images/clay-owens-team.jpg"
-          imageAlt="Clay Owens leading his professional moving team"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
         />
@@ -131,8 +126,6 @@ export default function LandingPage() {
             required: true,
           }}
           useInvertedBackground={false}
-          imageSrc="/images/contact-moving-truck.jpg"
-          imageAlt="Florida Elite Moving truck ready for your move"
           mediaAnimation="slide-up"
           mediaPosition="right"
           buttonText="Get Your Free Quote - No Obligation"
