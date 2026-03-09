@@ -64,6 +64,8 @@ export default function LandingPage() {
           description="Clay Owens"
           subdescription="Founder & Owner - 10+ Years of Moving Excellence"
           icon={Award}
+          imageSrc="/placeholders/placeholder1.webp"
+          imageAlt="Clay Owens, Founder of Florida Elite Moving"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
         />
